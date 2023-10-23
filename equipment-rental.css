@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.header_nav {
+    width: 1000px;
+    height: 82px;
+    margin-left: 250px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.nav_header {
+    display: flex;
+    margin-top: -55px;
+    margin-left: 250px;
+}
+
+.nav_head {
+    text-decoration: none;
+    color: #1D1D1B;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 0px 0px 50px;
+    transition: font-size 0.5s;
+}
+
+.nav_head:hover {
+    font-size: 20px;
+    transition: font-size 0.5s;
+}
+
+.green {
+    color: #27AE60;
+}
+
+.arrow_material {
+    margin-left: 5px;
+}
+
+.content {
+    position: absolute;
+    width: 1420px;
+    height: 1000px;
+    margin-left: 250px;
+    margin-top: 180px;
+}
+
+.block1 {
+    position: absolute;
+    width: 1420px;
+    height: 480px;
+}
+
+.block2 {
+    position: absolute;
+    width: 1420px;
+    height: 480px;
+    margin-top: 520px;
+}
+
+.title_block {
+    position: absolute;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #1D1D1B;
+    margin-left: 620px;
+    margin-top: -470px;
+}
+
+.text_block {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1D1D1B;
+    width: 700px;
+    height: 46px;
+    line-height: 23px;
+    margin-left: 620px;
+    margin-top: -410px;
+}
+
+.truck20k {
+    display: flex;
+    margin-left: 620px;
+    margin-top: -300px;
+}
+
+.text_truck {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #1D1D1B;
+}
+
+.border_truck {
+    border: 1px solid #CCCCCC;
+    width: 310px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.price {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1D1D1B;
+}
+
+.truck25k {
+    display: flex;
+    margin-left: 620px;
+    margin-top: 20px;
+}
+
+
+
+.truck30k {
+    display: flex;
+    margin-left: 620px;
+    margin-top: 20px;
+}
+
+.contacts {
+    position: absolute;
+    width: 1920px;
+    height: 588px;
+    margin-top: 1230px;
+    background-color: #F8F8F8;
+}
+
+.green-bg_contacts {
+    width: 318px;
+    height: 588px;
+    margin-left: 1216px;
+    background-color: #27AE60;
+}
+
+.input {
+    position: absolute;
+    width: 686px;
+    height: 475px;
+    margin-left: 1032px;
+    margin-top: -530px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 100px 0px rgba(7, 17, 51, 0.07);
+}
+
+.title_contacts {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    width: 460px;
+    color: #1E1E1C;
+    margin-top: -500px;
+    margin-left: 220px;
+}
+
+.first_rec_contacts {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #27AE60;
+    width: 489px;
+    height: 170px;
+    line-height: 39px;
+    margin-left: 220px;
+    margin-top: -425px;
+}
+
+.second_rec_contacts {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #1E1E1C;
+    width: 489px;
+    height: 170px;
+    line-height: 30px;
+    margin-left: 220px;
+    margin-top: -320px;
+}
+
+.buttom_contacts {
+    text-decoration: none;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 182px;
+    background-color: #27AE60;
+    border-radius: 8px;
+    padding: 20px 36px 20px 36px;
+    margin-left: 220px;
+    margin-top: -200px;
+}
+
+.name_input {
+    position: absolute;
+    width: 550px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #181A28;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.number_input {
+    position: absolute;
+    width: 550px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #181A28;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.comment_input {
+    position: absolute;
+    width: 568px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #181A28;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    margin-top: 200px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-bottom: 172px;
+    padding-top: 20px;
+}
+
+.agreement_contacts {
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #181A28;
+    margin-left: 40px;
+    margin-top: 435px;
+}
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 128px;
+    background-color: #424141;
+    display: flex;
+    margin-top: 1819px;
+}
+
+.logo_footer {
+    width: 209px;
+    height: 82px;
+    margin-top: 20px;
+    margin-left: 245px;
+}
+
+.copirait_footer {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    width: 292px;
+    color: #FFFFFF;
+    margin-top: 58px;
+    margin-left: 60px;
+}
+
+.text_footer_one {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 52px;
+    margin-left: 200px;
+    text-decoration: none;
+}
+
+.text_footer_two {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 52px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+.network {
+    padding-left: 30px;
+    margin-top: 28px;
+}
+
+.networks {
+    margin-top: 26px;
+    margin-left: 200px;
+}
+
+.number_footer {
+    text-decoration: none;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 12px 14px 12px 14px;
+    margin-top: 40px;
+    margin-left: 1630px;
+    width: 100px;
+}
